@@ -1,8 +1,11 @@
 # 학생 출결 관리 예제 프로젝트
 ## 파일 구성
 `index.html` - 메인 HTML
+
 `syle.css` - 스타일 시트
+
 `script.js` - 내부 처리 로직
+
 `server-data.js` - 외부 서버(가정) 제공 학생 데이터
 
 ---
