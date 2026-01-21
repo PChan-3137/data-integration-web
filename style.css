@@ -1,0 +1,64 @@
+body {margin: 0;padding: 0;box-sizing: border-box;}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+h1 {margin-bottom: 20px;}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.tab {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background: #e0e0e0;
+  border: 0.5px solid black;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #007bff;
+  color: #fff;
+}
+
+.count {
+  margin: 15px 0;
+  font-size: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  height: 120px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+}
+.card .name {font-weight: bold;margin-bottom: 5px;}
+.status {
+  display: inline-block;
+  padding: 6px 6px;
+  border-radius: 6px;
+  font-size: 14px;
+  align-self: center;
+}
+.status.출석 { background: #d4edda;}
+.status.지각 { background: #fff3cd;}
+.status.결석 { background: #f8d7da;}
